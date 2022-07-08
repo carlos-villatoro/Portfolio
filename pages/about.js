@@ -6,7 +6,7 @@ export default function About(){
         <div>
             <h1>About</h1>
 
-            <p className={[styles.extraGreen, styles.bigFont].join(' ')}>I am a programmer, much wow</p>
+            <p className={[styles.extraGreen, styles.bigFont].join(' ')}>I'm a programmer, much wow</p>
             
             <div>
                 <style jsx>{`
