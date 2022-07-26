@@ -10,12 +10,8 @@ const NAV__LINK = [
     display: "Home",
   },
   {
-    path: "#about",
-    display: "About",
-  },
-  {
     path: "#services",
-    display: "Services",
+    display: "About",
   },
   {
     path: "#portfolio",
@@ -59,7 +55,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>M</span>uhib
+              <span>C</span>arlos
             </h1>
           </div>
 
@@ -79,7 +75,7 @@ const Header = () => {
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
-                  <i className="ri-phone-line"></i> +088123456789{" "}
+                  futurebound.carlosv@gmail.com{" "}
                 </p>
               </div>
             </div>

@@ -41,14 +41,14 @@ const Portfolio = () => {
 
           <Col lg="6" md="6">
             <div className={`${classes.tab__btns} text-end`}>
-              <button
+              {/* <button
                 className={` ${
                   filter === "Mobile App" ? active : ""
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Mobile App")}
               >
                 Mobile App
-              </button>
+              </button> */}
               <button
                 className={`${
                   filter === "Web Design" ? active : ""
