@@ -15,11 +15,11 @@ a {
 
 * {
   box-sizing: border-box;
-  background: #0e1630;
+  background: #243f4d;
 }
 
 p {
-  color: #808dad;
+  color: #fff;
   line-height: 30px;
 }
 h1,
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: #fcd7b6;
 }
 
 h2 {
@@ -75,12 +75,12 @@ footer {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: #808dad;
+  background: #fcd7b6;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
-  background: #171f38;
+  background: #ad886e;
 }
 
 @media only screen and (max-width: 992px) {

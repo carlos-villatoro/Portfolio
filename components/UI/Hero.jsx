@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "../../public/images/hero.jpg";
+import heroImg from "../../public/images/hero.jpeg";
 import classes from "../../styles/hero.module.css";
 
 const Hero = () => {
@@ -55,12 +55,9 @@ const Hero = () => {
             </div>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="https://docs.google.com/document/d/1-d-XGxSUC-mJU35StxlfZ2EFR81Fl-K4PnpR0Y811n8/edit?usp=sharing">Resume</Link>
                 </button>
 
-                <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
-                </button>
               </div>
             </div>
             
